@@ -20,9 +20,11 @@ Show topic
 	bin/kafka-topics.sh --describe --topic quickstart-events --bootstrap-server localhost:9092
 
 Produce 
+
 	bin/kafka-console-producer.sh --topic quickstart-events --bootstrap-server localhost:9092
 
 Consume 
+
 	bin/kafka-console-consumer.sh --topic quickstart-events --from-beginning --bootstrap-server localhost:9092
 
 
